@@ -1,44 +1,19 @@
 <template>
-    <div class="container text-center  mt-5 mb-5">
-    <h1 class="mt-5 fw-bolder text-success "> Kimi's Database </h1>
-     <div class="table-responsive my-5">
-      
-      <!-- The table component -->
-       <Table :fields='fields' :kimiquotes ="kimiquotes"></Table>
-     </div>
- 
-</div>
+<header>
+
+  <router-link to="/">
+    <h1>Can I Drive?</h1>
+  </router-link>
+
+    <router-link to="/ferrari">
+    <button>Ferrari</button>
+  </router-link>
+
+      <router-link to="/quotes">
+    <button>Quotes</button>
+  </router-link>
+
+</header>
+
+  <router-view />
 </template>
-
-<script>
-// Importing the table component
-import Table from './components/Table.vue'
-
-import axios from 'axios'
-
-export default {
-  name: 'App',
-  components: {
-    Table
-  },
-  data() {
-    return {
-      kimiquotes: [],
-    };
-  },
-  created() {
-          axios.get('https://kimiquotes.herokuapp.com/quotes').then((response) => {
-              //console.log(response);
-              this.kimiquotes = response.data;
-    });
-  },
-   setup(){
-     
-     const fields = [
-      'id','quote','year'
-    ]
-    return{fields}
-  },
-
-}
-</script>

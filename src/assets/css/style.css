@@ -10,3 +10,8 @@ text-align: center;
 color: #2c3e50;
 margin-top: 60px;
 }
+body {
+  /*filter: blur(4px);*/
+  background-image: url("../../assets/img/background.jpg");
+  /*background-color: #cccccc;*/
+ }
