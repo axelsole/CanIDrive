@@ -6,8 +6,8 @@
          <div class="row">  
 
              <div class="col-md-4">
-                 <router-link to="/scuderia">
-                    <div class="card text-white card-has-bg click-col mclarsen">
+                 <router-link to="/scuderia/mclaren">
+                    <div class="card text-white card-has-bg click-col mclaren">
                         <div class="card-img-overlay d-flex flex-column">
                         </div>   
                     </div>
@@ -17,8 +17,8 @@
 
 
              <div class="col-md-4">
-                 <router-link to="/ferrari">
-                    <div class="card text-white card-has-bg click-col ferrarsi">
+                 <router-link to="/scuderia/ferrari">
+                    <div class="card text-white card-has-bg click-col ferrari">
                         <div class="card-img-overlay d-flex flex-column">
                         </div>   
                     </div>
@@ -27,8 +27,8 @@
                
 
              <div class="col-md-4">
-                 <router-link to="/alfaromeo">
-                    <div class="card text-white card-has-bg click-col aslfa">
+                 <router-link to="/scuderia/lotus">
+                    <div class="card text-white card-has-bg click-col lotus">
                         <div class="card-img-overlay d-flex flex-column">
                         </div>   
                     </div>
