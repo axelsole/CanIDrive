@@ -43,9 +43,7 @@
 </div>
 
 
-      <router-link to="/quotes">
-    <a>Quotes</a>
-  </router-link>
+    
      </div>
 
    

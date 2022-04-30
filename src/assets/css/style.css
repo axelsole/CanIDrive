@@ -67,7 +67,7 @@ font-family: "Formula1-Bold";
  }
 
  .mclaren {
-  background-image: url("../../assets/img/mclaren2.jpg");
+  background-image: url("../../assets/img/mclaren3.png");
  }
  .alfa {
   background-image: url("../../assets/img/alfa.png");
@@ -75,6 +75,15 @@ font-family: "Formula1-Bold";
  .lotus {
   background-image: url("../../assets/img/lotus2.png");
  }
+ .f1 {
+  background-image: url("../../assets/img/f1.png");
+ }
+ .quotes {
+  background-image: url("../../assets/img/quotes5.png");
+ }
  .card .card-img-overlay {
  background: linear-gradient(107deg, rgb(35 79 109 / 0%) 0%, #35434c8f 100%)!important;
  }
+ .mt-5 {
+  margin-top: 4rem!important;
+}

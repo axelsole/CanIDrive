@@ -1,6 +1,6 @@
 <template>
     <div class="container text-center  mt-5 mb-5">
-    <h1 class="mt-5 fw-bolder text-success "> Kimi's Database </h1>
+    <h1 class="mt-5 title  "> Quotes </h1>
      <div class="table-responsive my-5">
       
       <!-- The table component -->
@@ -27,7 +27,9 @@ export default {
     };
   },
   created() {
-          axios.get('https://kimiquotes.herokuapp.com/quotes').then((response) => {
+          //axios.get('http://localhost:8000/quotes').then((response) => {
+
+          axios.get('http://localhost:8000/quotes').then((response) => {
               //console.log(response);
               this.kimiquotes = response.data;
     });

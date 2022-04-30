@@ -7,6 +7,7 @@ import Lotus from  '../Lotus.vue'
 import AlfaRomeo from  '../AlfaRomeo.vue'
 import ChooseScuderia from  '../ChooseScuderia.vue'
 
+
 const routes = [
   {
     path: '/',
@@ -43,6 +44,7 @@ const routes = [
     name: 'Alfa Romeo',
     component: AlfaRomeo
   },
+
   
 ]
 
