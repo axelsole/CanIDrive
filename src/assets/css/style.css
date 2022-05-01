@@ -17,8 +17,17 @@ body {
   background-image: url("../../assets/img/background.jpg");
   background-repeat: no-repeat;
   /*background-color: #cccccc;*/
+  background-color: #9899a1;
+  
  }
-
+.tapadera{
+  z-index: 1;
+  width: 361px;
+  background-color: black;
+  position: relative;
+  top: 380px;
+  height: 100px;
+}
  .header {   
    text-transform: none;
    padding-top: 20px;
@@ -81,9 +90,29 @@ font-family: "Formula1-Bold";
  .quotes {
   background-image: url("../../assets/img/quotes5.png");
  }
+ .teamradio {
+  background-size: 100%;
+  min-height: 561px!important;
+  background-image: url("../../assets/img/teamradio.jpg");
+ }
  .card .card-img-overlay {
  background: linear-gradient(107deg, rgb(35 79 109 / 0%) 0%, #35434c8f 100%)!important;
  }
  .mt-5 {
   margin-top: 4rem!important;
+}
+.textradio{
+  position: relative;
+  /* margin: 43px; */
+  background-color: #000000;
+  /* top: 353px; */
+  margin: 24px;
+  margin-right: -12px;
+  top: -25px;
+  /*
+  position: relative;
+  background-color: #000000;
+  margin: 32px;
+  top: 350px;
+  */
 }

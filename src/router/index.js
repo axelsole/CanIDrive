@@ -6,6 +6,7 @@ import McLaren from  '../McLaren.vue'
 import Lotus from  '../Lotus.vue'
 import AlfaRomeo from  '../AlfaRomeo.vue'
 import ChooseScuderia from  '../ChooseScuderia.vue'
+import DetailKimi from  '../DetailKimi.vue'
 
 
 const routes = [
@@ -44,7 +45,11 @@ const routes = [
     name: 'Alfa Romeo',
     component: AlfaRomeo
   },
-
+  {
+    path: '/detail/:id',
+    name: 'Detail Kimi',
+    component: DetailKimi
+  },
   
 ]
 

@@ -29,7 +29,7 @@ export default {
   created() {
           //axios.get('http://localhost:8000/quotes').then((response) => {
 
-          axios.get('http://localhost:8000/quotes').then((response) => {
+          axios.get('https://kimiquotes.herokuapp.com/quotes').then((response) => {
               //console.log(response);
               this.kimiquotes = response.data;
     });
@@ -39,6 +39,8 @@ export default {
      const fields = [
       'id','quote','year'
     ]
+        console.log(fields[0])
+
     return{fields}
   },
 

@@ -20,7 +20,7 @@
   <tbody>
       <!-- Loop through the list get the each student data -->
       <tr v-for="item in filteredList" :key='item'>
-      <td v-for="field in fields" :key='field'>{{item[field]}}</td>
+      <td v-for="field in fields" :key='field' @click="getDetail(item.id)">{{item[field]}}</td>
       <!--<td><router-link :to="{ name: 'ShowQuotes', params: {'id':kimiquotes.id}}">{{kimiquotes.quote}}</router-link> </td>-->
     </tr>
   </tbody>
@@ -71,6 +71,12 @@ export default {
       
 
   return {sortedList, sortTable,searchQuery,filteredList}
+  },
+  methods: {
+    getDetail(id){
+      console.log(id)
+      this.$router.push({ name: 'Detail Kimi', params: { id: id } })
+    }
   }
  
 }
