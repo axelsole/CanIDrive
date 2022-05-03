@@ -29,7 +29,7 @@ export default ({
     };
   },
   created() {
-
+//hola
           axios.get('https://kimiquotes.herokuapp.com/quote/'+this.$route.params.id).then((response) => {
               //console.log(response);
               this.kimiquotes = response.data;
